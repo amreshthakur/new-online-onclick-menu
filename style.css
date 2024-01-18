@@ -55,10 +55,12 @@ body {
         color: #09f845;
     }
 
-    .sub-container input {
+        .sub-container input {
         display: block;
         width: 40px;
         height: 32px;
+        margin-left: 30px;
+
         position: absolute;
         top: -7px;
         left: -5px;
@@ -83,7 +85,6 @@ body {
             background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
             opacity 0.55s ease;
     }
-
     .sub-container span:first-child {
         transform-origin: 0% 0%;
     }
